@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/theSilverScreen/static/css/main.7db3d194.css",
+    "main.js": "/theSilverScreen/static/js/main.6983af58.js",
+    "index.html": "/theSilverScreen/index.html",
+    "main.7db3d194.css.map": "/theSilverScreen/static/css/main.7db3d194.css.map",
+    "main.6983af58.js.map": "/theSilverScreen/static/js/main.6983af58.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7db3d194.css",
+    "static/js/main.6983af58.js"
+  ]
+}
