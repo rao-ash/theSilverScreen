@@ -1,0 +1,13 @@
+.trending {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .heading {
+    display: flex;
+    justify-content: center;
+    font-size: 3vw !important;
+    padding-top: 30px !important;
+    margin-bottom: 15px;
+    color: cornsilk;
+  }

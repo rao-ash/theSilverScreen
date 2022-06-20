@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+
+  .modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .openModal{
+    width: 90%;
+    height: 80% ;
+    background-color: #801a00 ;  
+    border-radius: 10 ;
+    color: white ;
+    box-shadow: 10px 10px 5px inset cornsilk ;
+    padding: 1px 1px 3px;
+  }
+
+.media {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 5px !important;
+    margin: 30px 20px !important;
+    background-color: cornsilk;
+    border-radius: 10px;
+    position: relative;
+    color:#801a00;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+  }
+.media:hover {
+  background-color: white;
+  color: black;
+}
+.landscape {
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.portrait{
+  display: none;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.tagline {
+  padding-bottom: 10px;
+  align-self: center;
+}
+
+.ContentModal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.ContentModal::-webkit-scrollbar {
+  display: none;
+}
+
+.about {
+  padding: 10px;
+  width: 95%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content :center;
+  font-family: "Roboto", sans-serif;
+  justify-content: space-evenly;
+  font-weight: 300;
+}
+
+.c_title {
+  height: 12%;
+  font-size: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+.subtitle{
+    padding-top: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description {
+  display: flex;
+  height: 40%;
+  overflow-y: scroll;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: inset 5px 5px 5px cornsilk;
+  text-align: justify;
+}
+
+.description::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 780px) {
+  .landscape {
+    display: none;
+  }
+  .portrait {
+    display: flex;
+    width: 38%;
+  }
+  .ContentModal {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  .about {
+    width: 60%;
+    padding: 0;
+    height: 100%;
+  }
+  .c_title {
+    font-size: 3.5vw;
+  }
+  .description {
+    font-size: 20px;
+  }
+}

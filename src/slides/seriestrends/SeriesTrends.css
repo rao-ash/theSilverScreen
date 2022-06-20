@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.heading {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3vw !important;
+    padding-top: 30px !important;
+    border-radius: 50px;
+    color: white;
+    margin-bottom: 150px;
+  }

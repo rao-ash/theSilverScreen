@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+.title{
+    width : 100%;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    font-size: 5vw !important;
+    font-family: 'Rampart One', cursive;
+    cursor: pointer;
+    /* box-shadow: 5px , 5px, black !important; */
+    background-color: cornsilk;
+    padding-bottom: 2vh;
+    color:#801a00;
+}
+@media (max-width: 780px) {
+    .header {
+      padding-top: 10px;
+      font-size: 6vw;
+    }
+}
